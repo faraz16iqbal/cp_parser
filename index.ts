@@ -6,7 +6,7 @@ const app: express.Application = express();
 
 app.use(express.json());
 
-let savePath: string = `/home/faraz/Desktop/cp/input.txt`
+let savePath: string = `/home/faraz/Desktop/cp/input.txt` // path to your input.txt
 
 app.post('/', (req, res) => {
 
